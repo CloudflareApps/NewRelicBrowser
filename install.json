@@ -1,0 +1,33 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./vendor/new-relic-browser.js"
+      },
+      {
+        "type": "script",
+        "src": "./source/app.js"
+      }
+    ]
+  },
+  "preview": {
+    "hide": true
+  },
+  "options": {
+    "properties": {
+      "licenseKey": {
+        "order": 0,
+        "title": "License Key",
+        "placeholder": "aabbcc1234",
+        "type": "string"
+      },
+      "applicationID": {
+        "order": 0,
+        "title": "Application ID",
+        "placeholder": "12345678",
+        "type": "string"
+      }
+    }
+  }
+}
