@@ -20,13 +20,15 @@
         "order": 0,
         "title": "License Key",
         "placeholder": "aabbcc1234",
-        "type": "string"
+        "type": "string",
+        "required": true
       },
       "applicationID": {
         "order": 0,
         "title": "Application ID",
         "placeholder": "12345678",
-        "type": "string"
+        "type": "string",
+        "required": true
       }
     }
   }
